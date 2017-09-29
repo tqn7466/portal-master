@@ -1,0 +1,202 @@
+22:57:50.286 [main] INFO  org.gradle.TestLogger - info message
+22:57:50.295 [main] DEBUG org.gradle.TestLogger - debugging
+22:57:58.927 [main] INFO  org.gradle.TestLogger - info message
+22:57:58.937 [main] DEBUG org.gradle.TestLogger - debugging
+22:58:04.571 [main] DEBUG spark.route.Routes - Adds route: get, /home, spark.RouteImpl$1@6fb554cc
+22:58:04.576 [main] DEBUG spark.route.Routes - Adds route: get, /map, spark.RouteImpl$1@617c74e5
+22:58:04.606 [Thread-0] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:58:04.615 [Thread-0] INFO  org.eclipse.jetty.util.log - Logging initialized @966ms to org.eclipse.jetty.util.log.Slf4jLog
+22:58:04.646 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@60acf943 added {qtp628545516{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+22:58:04.682 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@1702b87c[HTTP/1.1] added {HttpConfiguration@4aaa6278{32768/8192,8192/8192,https://:0,[ForwardedRequestCustomizer@6c55caca]},POJO}
+22:58:04.701 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@60acf943,UNMANAGED}
+22:58:04.702 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{null,[]}{0.0.0.0:0} added {qtp628545516{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+22:58:04.703 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@4440a897,AUTO}
+22:58:04.704 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@7a9bca84,POJO}
+22:58:04.705 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{null,[http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@1702b87c[HTTP/1.1],AUTO}
+22:58:04.706 [Thread-0] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@2be9d303{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@1702b87c[HTTP/1.1]
+22:58:04.708 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@2be9d303{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@2bc60da,MANAGED}
+22:58:04.709 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@60acf943 added {ServerConnector@2be9d303{HTTP/1.1,[http/1.1]}{0.0.0.0:4567},AUTO}
+22:58:04.712 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@60acf943 added {spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1,MANAGED}
+22:58:04.712 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+22:58:04.712 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+22:58:04.714 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@60acf943
+22:58:04.720 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@60acf943 added {org.eclipse.jetty.server.handler.ErrorHandler@3c4a5d2,AUTO}
+22:58:04.722 [Thread-0] INFO  org.eclipse.jetty.server.Server - jetty-9.4.4.v20170414
+22:58:04.743 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@60acf943
+22:58:04.744 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting qtp628545516{STOPPED,8<=0<=200,i=0,q=0}
+22:58:04.746 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1100ms qtp628545516{STARTED,8<=8<=200,i=8,q=0}
+22:58:04.746 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1
+22:58:04.761 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionCache@76ff1405[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false],AUTO}
+22:58:04.764 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionCache@76ff1405[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false] added {org.eclipse.jetty.server.session.NullSessionDataStore@7b8c69de[passivating=false,graceSec=3600],AUTO}
+22:58:04.766 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionIdManager@377e20d[worker=null]
+22:58:04.780 [Thread-0] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+22:58:04.781 [Thread-0] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+22:58:04.783 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionIdManager@377e20d[worker=node0] added {org.eclipse.jetty.server.session.HouseKeeper@34640e8e[interval=600000, ownscheduler=false],MANAGED}
+22:58:04.783 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.HouseKeeper@34640e8e[interval=600000, ownscheduler=false]
+22:58:04.784 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5b35b04d
+22:58:04.786 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1141ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5b35b04d
+22:58:04.786 [Thread-0] DEBUG org.eclipse.jetty.server.session - Using own scheduler for scavenging
+22:58:04.787 [Thread-0] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+22:58:04.790 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1144ms org.eclipse.jetty.server.session.HouseKeeper@34640e8e[interval=660000, ownscheduler=true]
+22:58:04.790 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1145ms org.eclipse.jetty.server.session.DefaultSessionIdManager@377e20d[worker=node0]
+22:58:04.790 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@60acf943 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@377e20d[worker=node0],MANAGED}
+22:58:04.791 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@377e20d[worker=node0],UNMANAGED}
+22:58:04.791 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2f038dbe
+22:58:04.792 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1146ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2f038dbe
+22:58:04.793 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1
+22:58:04.794 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionCache@76ff1405[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+22:58:04.794 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.NullSessionDataStore@7b8c69de[passivating=false,graceSec=3600]
+22:58:04.795 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1149ms org.eclipse.jetty.server.session.NullSessionDataStore@7b8c69de[passivating=false,graceSec=3600]
+22:58:04.796 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1149ms org.eclipse.jetty.server.session.DefaultSessionCache@76ff1405[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+22:58:04.797 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1151ms spark.embeddedserver.jetty.JettyHandler508028756==dftMaxIdleSec=-1
+22:58:04.797 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.ErrorHandler@3c4a5d2
+22:58:04.797 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.ErrorHandler@3c4a5d2
+22:58:04.798 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1152ms org.eclipse.jetty.server.handler.ErrorHandler@3c4a5d2
+22:58:04.798 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ServerConnector@2be9d303{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+22:58:04.819 [Thread-0] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED ServerConnector@2be9d303{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) [jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) [spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) [spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
+22:58:04.821 [Thread-0] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@60acf943: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) [spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) [spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
+22:58:04.822 [Thread-0] ERROR spark.Spark - ignite failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) ~[spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) ~[spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
+22:59:48.712 [main] DEBUG spark.route.Routes - Adds route: get, /home, spark.RouteImpl$1@6fb554cc
+22:59:48.720 [main] DEBUG spark.route.Routes - Adds route: get, /map, spark.RouteImpl$1@617c74e5
+22:59:48.769 [Thread-0] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+22:59:48.782 [Thread-0] INFO  org.eclipse.jetty.util.log - Logging initialized @1482ms to org.eclipse.jetty.util.log.Slf4jLog
+22:59:48.829 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@7c3992d0 added {qtp222421115{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+22:59:48.886 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@6b3c8768[HTTP/1.1] added {HttpConfiguration@15dd5229{32768/8192,8192/8192,https://:0,[ForwardedRequestCustomizer@a0fed67]},POJO}
+22:59:48.915 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@7c3992d0,UNMANAGED}
+22:59:48.916 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{null,[]}{0.0.0.0:0} added {qtp222421115{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+22:59:48.918 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@66a2ee13,AUTO}
+22:59:48.919 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@6eb9d85f,POJO}
+22:59:48.921 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{null,[http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@6b3c8768[HTTP/1.1],AUTO}
+22:59:48.922 [Thread-0] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@9a0a246{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@6b3c8768[HTTP/1.1]
+22:59:48.927 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@9a0a246{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@16db10c4,MANAGED}
+22:59:48.928 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@7c3992d0 added {ServerConnector@9a0a246{HTTP/1.1,[http/1.1]}{0.0.0.0:4567},AUTO}
+22:59:48.934 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@7c3992d0 added {spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1,MANAGED}
+22:59:48.935 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+22:59:48.937 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:4567
+22:59:48.941 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@7c3992d0
+22:59:48.950 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@7c3992d0 added {org.eclipse.jetty.server.handler.ErrorHandler@7713a25e,AUTO}
+22:59:48.954 [Thread-0] INFO  org.eclipse.jetty.server.Server - jetty-9.4.4.v20170414
+22:59:48.985 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@7c3992d0
+22:59:48.986 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting qtp222421115{STOPPED,8<=0<=200,i=0,q=0}
+22:59:48.989 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1693ms qtp222421115{STARTED,8<=8<=200,i=7,q=0}
+22:59:48.990 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1
+22:59:49.016 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionCache@6408d8ee[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false],AUTO}
+22:59:49.021 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionCache@6408d8ee[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false] added {org.eclipse.jetty.server.session.NullSessionDataStore@1093c944[passivating=false,graceSec=3600],AUTO}
+22:59:49.025 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionIdManager@17294636[worker=null]
+22:59:49.048 [Thread-0] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+22:59:49.082 [Thread-0] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+22:59:49.085 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionIdManager@17294636[worker=node0] added {org.eclipse.jetty.server.session.HouseKeeper@11ec9d69[interval=600000, ownscheduler=false],MANAGED}
+22:59:49.086 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.HouseKeeper@11ec9d69[interval=600000, ownscheduler=false]
+22:59:49.086 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@4cbb83e5
+22:59:49.090 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1795ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@4cbb83e5
+22:59:49.091 [Thread-0] DEBUG org.eclipse.jetty.server.session - Using own scheduler for scavenging
+22:59:49.092 [Thread-0] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+22:59:49.097 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1802ms org.eclipse.jetty.server.session.HouseKeeper@11ec9d69[interval=660000, ownscheduler=true]
+22:59:49.098 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1802ms org.eclipse.jetty.server.session.DefaultSessionIdManager@17294636[worker=node0]
+22:59:49.098 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@7c3992d0 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@17294636[worker=node0],MANAGED}
+22:59:49.099 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@17294636[worker=node0],UNMANAGED}
+22:59:49.099 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7de7de28
+22:59:49.099 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1804ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7de7de28
+22:59:49.101 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1
+22:59:49.101 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionCache@6408d8ee[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+22:59:49.102 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.NullSessionDataStore@1093c944[passivating=false,graceSec=3600]
+22:59:49.102 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1807ms org.eclipse.jetty.server.session.NullSessionDataStore@1093c944[passivating=false,graceSec=3600]
+22:59:49.103 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1808ms org.eclipse.jetty.server.session.DefaultSessionCache@6408d8ee[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+22:59:49.104 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1808ms spark.embeddedserver.jetty.JettyHandler1620397531==dftMaxIdleSec=-1
+22:59:49.104 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.ErrorHandler@7713a25e
+22:59:49.104 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.ErrorHandler@7713a25e
+22:59:49.104 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @1809ms org.eclipse.jetty.server.handler.ErrorHandler@7713a25e
+22:59:49.105 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ServerConnector@9a0a246{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+22:59:49.124 [Thread-0] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED ServerConnector@9a0a246{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) [jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) [jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) [spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) [spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
+22:59:49.125 [Thread-0] WARN  o.e.j.u.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@7c3992d0: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) [spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) [spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
+22:59:49.126 [Thread-0] ERROR spark.Spark - ignite failed
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_144]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431) ~[jetty-server-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.4.v20170414.jar:9.4.4.v20170414]
+	at spark.embeddedserver.jetty.EmbeddedJettyServer.ignite(EmbeddedJettyServer.java:130) ~[spark-core-2.6.0.jar:na]
+	at spark.Service.lambda$init$2(Service.java:504) ~[spark-core-2.6.0.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_144]
